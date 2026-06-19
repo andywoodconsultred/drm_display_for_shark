@@ -50,6 +50,8 @@ sudo ./drm_display image.jpg
 
 ## Compilation
 
+Note: for Shark build apply the simple patch.
+
 ### Standard compilation
 ```sh
 # Install dependencies (example for Ubuntu)
