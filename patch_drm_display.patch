@@ -1,0 +1,23 @@
+diff --git a/drm_display.c b/drm_display.c
+index 5bfd331..c03496f 100644
+--- a/drm_display.c
++++ b/drm_display.c
+@@ -314,11 +314,13 @@ int main(int argc, char *argv[]) {
+         return 1;
+     }
+     
+-    printf("Image displayed. Press Enter to exit...\n");
+-    getchar();
+-    
++//    printf("Image displayed. Press Enter to exit...\n");
++//    getchar();
++//
++    while (1) ;
++
+     cleanup_drm(&dev);
+     printf("Cleanup completed.\n");
+     
+     return 0;
+-}
+\ No newline at end of file
++}
